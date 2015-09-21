@@ -333,22 +333,22 @@ ChineseSimplified::ChineseSimplified()	// 中文（简体）
   addPair("Unchanged  %s\n", L"不变    %s\n");		// should align with formatted
   addPair("Directory  %s\n", L"目录  %s\n");
   addPair("Exclude  %s\n", L"排除  %s\n");
-  addPair("Exclude (unmatched)  %s\n", L"排除（无与伦比） %s\n");
+  addPair("Exclude (unmatched)  %s\n", L"排除（不匹配） %s\n");
   addPair(" %s formatted   %s unchanged   ", L" %s 格式化   %s 不变   ");
   addPair(" seconds   ", L" 秒   ");
-  addPair("%d min %d sec   ", L"%d 分钟 %d 秒   ");
-  addPair("%s lines\n", L"%s 线\n");
+  addPair("%d min %d sec   ", L"%d 分 %d 秒   ");
+  addPair("%s lines\n", L"%s 行\n");
   addPair("Using default options file %s\n", L"使用默认选项文件%s\n");
   addPair("Invalid option file options:", L"无效的选项文件选项：");
   addPair("Invalid command line options:", L"无效的命令行选项：");
-  addPair("For help on options type 'astyle -h'", L"有关期权类型'astyle -h'的帮助");
+  addPair("For help on options type 'astyle -h'", L"键入'astyle -h'获取选项的帮助");
   addPair("Cannot open options file", L"无法打开选项文件");
   addPair("Cannot open directory", L"无法打开目录");
   addPair("Cannot process the input stream", L"无法处理的输入流");
-  addPair("Missing filename in %s\n", L"在%s名失踪\n");
+  addPair("Missing filename in %s\n", L"忽略 %s 中的文件名\n");
   addPair("Recursive option with no wildcard", L"递归选项没有通配符");
   addPair("Did you intend quote the filename", L"你打算引用文件");
-  addPair("No file to process %s\n", L"没有文件处理%s\n");
+  addPair("No file to process %s\n", L"没有需要处理的文件%s\n");
   addPair("Did you intend to use --recursive", L"你打算使用 --recursive");
   addPair("Cannot process UTF-32 encoding", L"不能处理UTF-32编码");
   addPair("\nArtistic Style has terminated", L"\nArtistic Style 已经终止");
